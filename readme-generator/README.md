@@ -16,7 +16,7 @@ The README Generator is a command-line interface tool built with Node.js that si
 Clone this repository, open the file in VSCode, install dependencies by running 'npm install'
 
 ## Demo
-Watch a demo of how to use the README generator [here](<iframe src="https://drive.google.com/file/d/163BHbJYzd6Oywlw2gPCkTDo4ZnGGVIPh/preview" width="640" height="480"></iframe>)
+Watch a demo of how to use the README generator [here](https://drive.google.com/file/d/163BHbJYzd6Oywlw2gPCkTDo4ZnGGVIPh/preview).
 
 ## Usage
 Once installed, run the command to start the README Generator: 'node index.js'
