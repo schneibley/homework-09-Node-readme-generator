@@ -34,11 +34,6 @@ import('inquirer')
                 message: 'Enter contribution guidelines:'
             },
             {
-                type: 'input',
-                name: 'tests',
-                message: 'Enter test instructions:'
-            },
-            {
                 type: 'list',
                 name: 'license',
                 message: 'Choose a license for your application:',
@@ -88,7 +83,6 @@ ${data.description}
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 
 ## Installation
@@ -104,9 +98,6 @@ ${licenseInfo}
 
 ## Contributing
 ${data.contributing}
-
-## Tests
-${data.tests}
 
 ## Questions
 For questions about this project, please contact:
