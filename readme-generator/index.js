@@ -1,6 +1,7 @@
 const fs = require('fs');
-const inquirer = require('inquirer');  // Use require to import 'inquirer'
+const inquirer = require('inquirer');  
 
+//prompt for users to input different portions of the README
 function promptUser() {
     return inquirer.prompt([
         {
@@ -52,6 +53,7 @@ function promptUser() {
     ]);
 }
 
+//References and creates badges to represent the licensing used in the README
 function generateMarkdown(data) {
     let licenseBadge = '';
     if (data.license === 'MIT') {
@@ -71,8 +73,9 @@ function generateMarkdown(data) {
         licenseInfo = 'This application is covered under the [GPL v3 license](https://www.gnu.org/licenses/gpl-3.0).';
     }
 
-    const markdownContent = `
-# ${data.title}
+    const markdownContent = 
+    
+`# ${data.title}
 
 ## Description
 ${data.description}
